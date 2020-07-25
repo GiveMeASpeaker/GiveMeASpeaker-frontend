@@ -12,3 +12,16 @@ export const receiveChat = (data) => {
     data,
   };
 };
+
+export const clearChat = () => {
+  return {
+    type: type.CLEAR_CHAT,
+  };
+};
+
+export const setUserName = (data) => {
+  return {
+    type: type.setUserName,
+    data,
+  };
+};

@@ -5,7 +5,7 @@ import chatReducer from './chats/reducers';
 const createRootReducer = (history) =>
   combineReducers({
     router: connectRouter(history),
-    chatReducer,
+    chatState: chatReducer,
   });
 
 export { createRootReducer };

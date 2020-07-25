@@ -1,6 +1,5 @@
 import React from 'react';
 const Home = () => {
-  console.log('되는중');
   return (
     <>
       <div className="container">
